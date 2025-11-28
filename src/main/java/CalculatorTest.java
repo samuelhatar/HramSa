@@ -10,10 +10,13 @@ public class CalculatorTest {
 
     @Given("The user has enter two numbers {int} and {int}")
     public void theUserHasEnterTwoNumbersAnd(int firstNumber, int secondNumber) {
+        firNumber = firstNumber;
+        secNumber = secondNumber;
     }
 
     @When("The user sum those two numbers")
     public void theUserSumThoseTwoNumbers() {
+        theResult = firNumber + secNumber;
     }
 
     @Then("The user can see the result {int}")
