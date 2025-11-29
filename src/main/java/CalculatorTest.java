@@ -34,4 +34,9 @@ public class CalculatorTest {
     public void theUserSubtractTwoNumbers() {
         theResult = firNumber - secNumber;
     }
+
+    @When("The user multiples two numbers")
+    public void theUserMultiplesTwoNumbers() {
+        theResult = firNumber * secNumber;
+    }
 }

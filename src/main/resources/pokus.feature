@@ -29,3 +29,8 @@ Feature: pokus
             Given The user has enter two numbers 100 and 25
             When The user subtract two numbers
             Then The user can see the result 75
+
+            Scenario: Calculator - multiplication of two numbers
+              Given The user has enter two numbers 5 and 5
+              When The user multiples two numbers
+              Then The user can see the result 25
