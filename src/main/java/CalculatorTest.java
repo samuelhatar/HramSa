@@ -29,4 +29,9 @@ public class CalculatorTest {
     public void theUserDivideTwoNumbers() {
         theResult = firNumber / secNumber;
     }
+
+    @When("The user subtract two numbers")
+    public void theUserSubtractTwoNumbers() {
+        theResult = firNumber - secNumber;
+    }
 }

@@ -24,3 +24,8 @@ Feature: pokus
           Given The user has enter two numbers 20 and 2
           When The user divide two numbers
           Then The user can see the result 10
+
+          Scenario: Calculator - subtraction of numbers
+            Given The user has enter two numbers 100 and 25
+            When The user subtract two numbers
+            Then The user can see the result 75
