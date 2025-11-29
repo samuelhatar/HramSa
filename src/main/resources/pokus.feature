@@ -34,3 +34,18 @@ Feature: pokus
               Given The user has enter two numbers 5 and 5
               When The user multiples two numbers
               Then The user can see the result 25
+
+
+
+  Scenario Outline: Calculator - sum of multiple scenarios
+   Given The user has enter two numbers <firstNumber> and <secondNumber>
+   When The user sum those two numbers
+   Then The user can see the result <Result>
+
+    Examples:
+      | firstNumber | secondNumber | Result |  |
+      | 140         | 24           | 164    |  |
+      | 10400       | 5000         | 15400  |  |
+      | 50          | 75           | 125    |  |
+      | 1700        | 250          | 1950   |  |
+
