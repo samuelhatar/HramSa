@@ -24,4 +24,9 @@ public class CalculatorTest {
     public void theUserCanSeeTheResult(int expectedResult) {
         assertEquals(expectedResult, theResult);
     }
+
+    @When("The user divide two numbers")
+    public void theUserDivideTwoNumbers() {
+        theResult = firNumber / secNumber;
+    }
 }

@@ -19,3 +19,8 @@ Feature: pokus
         Given The user has enter two numbers 5 and 8
         When The user sum those two numbers
         Then The user can see the result 13
+
+        Scenario: Calculator - divided of two numbers
+          Given The user has enter two numbers 20 and 2
+          When The user divide two numbers
+          Then The user can see the result 10
